@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ave
 {
-    class Pinguino
-    {
         public class Pinguino : Ave, iAve
         {
             public Pinguino(string nombre, string color) : base(nombre, color) { }
@@ -32,5 +30,4 @@ namespace Ave
                 Console.WriteLine("");
             }
         }
-    }
 }
